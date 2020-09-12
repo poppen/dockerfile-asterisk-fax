@@ -4,7 +4,7 @@ RUN apk add --no-cache \
     asterisk-fax \
     imagemagick \
     msmtp \
-    mailx \
+    s-nail \
 && ln -sf /usr/bin/msmtp /usr/sbin/sendmail \
 && rm -rf /tmp/* \
           /var/tmp/*
